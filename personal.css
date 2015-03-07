@@ -1,0 +1,104 @@
+#picture {
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYgIdXoCkY4cdkmg2jK1OwWy3SjJrSo6EDpIugO-tLLccFFkrgGA");
+	height: 500px;
+	width: 500px;
+	opacity: 0.9;
+	border-radius: 25px;
+	background-position: center;
+	background-attachment: scroll;
+  background-repeat:no-repeat;
+  padding: 20px;
+
+
+}
+
+.navbar-brand {
+	font-family: 'Architects Daughter', cursive;
+}
+
+.paragraph{
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+.landing{
+background-image: url("cltnight.jpg");	
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+p.hp1{
+font-family: 'Indie Flower', cursive;
+color: white;	
+font-size: 48px;
+
+
+}
+
+p.hp1
+{
+		font-family: 'Indie Flower', cursive;
+		color: white;	
+		font-size: 48px;
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+@keyframes blink{
+  to{opacity: .0;}
+}
+span.blink {
+  animation: blink 1s infinite;
+}
+
+img{
+
+	border-radius: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; width: 40%; 
+	padding: 30px;
+
+}
+
+img {
+  -webkit-filter: grayscale(.2);
+  filter: grayscale(.2);
+}
+
+.contactbg{
+background-image: url("cltskyline.jpg");	
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+
+}
+
+.aboutbg{
+background-image: url("cltskyline.jpg");	
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+
+}
+
+.aboutme{
+background-image: url("bio.jpg");	
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+
+}
+
