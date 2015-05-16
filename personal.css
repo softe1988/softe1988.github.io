@@ -142,7 +142,9 @@ color:white;
 
 }
 .sub {
-  text-align: center;
+  text-align: left;
   
 } 
-
+span{
+  text-align: center;
+}
